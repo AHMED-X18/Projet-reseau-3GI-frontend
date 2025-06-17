@@ -1,0 +1,46 @@
+/* RegisterForm.module.css */
+.gradientBg {
+    background: linear-gradient(135deg, #667eea 0%, #0000FF 100%);
+  }
+  
+  .formContainer {
+    background-color: white; /* White background for the form */
+    padding: 0; /* Adjusted to let inner padding handle spacing */
+  }
+  
+  .fileUpload {
+    position: relative;
+  }
+  
+  .previewContainer {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #e5e7eb; /* Light gray for default state */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .previewImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fileUploadInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .submitBtn {
+    background: linear-gradient(135deg, #667eea 0%, #0000FF 100%);
+    transition: opacity 0.3s;
+  }

@@ -1,0 +1,31 @@
+.mainContent {
+    background-color: #f9fafb;
+    padding-top: 1rem;
+    width: 100%;
+    flex: 1 0 auto;
+    transition: margin-left 0.3s;
+  }
+  
+  @media (max-width: 767px) {
+    .mainContent {
+      margin-left: 0; /* No margin on mobile by default */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mainContent {
+      margin-left: 240px; /* Default margin for open sidebar on desktop */
+    }
+    .mainContent.ml-0 {
+      margin-left: 0; /* Margin when sidebar is collapsed */
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .grid-cols-1 {
+      grid-template-columns: 1fr;
+    }
+    .mainContent {
+      padding-top: 0;
+    }
+  }

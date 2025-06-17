@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import { ReactNode } from "react";
+import { useRouter } from "next/navigation";
 
 export type ApiProduct = {
   id: number;
@@ -21,6 +22,7 @@ interface ApiProductCardProps {
 }
 
 const ApiProductCard = ({ product, onViewDetails }: ApiProductCardProps) => {
+  const router = useRouter();
   return (
     <Card className="h-full border border-gray-200 overflow-hidden transition-all hover:shadow-lg">
       <CardContent className="p-6">
@@ -46,7 +48,7 @@ const ApiProductCard = ({ product, onViewDetails }: ApiProductCardProps) => {
         <Button 
           variant="ghost" 
           className="text-purple-600 font-medium flex items-center p-0"
-          onClick={() => onViewDetails(product)}
+          onClick={() => router.push("/login")}
         >
           Voir détails <ArrowRight className="h-4 w-4 ml-2" />
         </Button>

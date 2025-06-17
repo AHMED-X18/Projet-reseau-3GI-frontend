@@ -1,0 +1,114 @@
+/* General body styling */
+.body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1293df;
+}
+
+/* Specific correction for the password toggle eye icon */
+#togglePasswordIcon {
+    transition: all 0.3s ease;
+}
+
+/* Gradient background for the left panel */
+.gradientBg {
+    background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+}
+
+/* Styling for the login card */
+.loginCard {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.loginCard:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for input groups */
+.inputGroup input {
+    transition: all 0.3s;
+    background-color: #f8fafc;
+}
+
+.inputGroup input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Styling for the login button */
+.loginBtn {
+    transition: all 0.3s;
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+}
+
+.loginBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(59, 130, 246, 0.3);
+}
+
+.loginBtn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(59, 130, 246, 0.3);
+}
+
+/* Styling for the divider element */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #94a3b8;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.divider::before {
+    margin-right: 1rem;
+}
+
+.divider::after {
+    margin-left: 1rem;
+}
+
+/* Styling for feature icons in the left panel */
+.featureIcon {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureIcon svg {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.featureIcon:hover svg {
+    color: #d1d5db;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .loginContainer {
+        flex-direction: column;
+    }
+
+    .leftPanel,
+    .rightPanel {
+        width: 100% !important;
+        padding: 2rem;
+    }
+
+    .leftPanel {
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .rightPanel {
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}

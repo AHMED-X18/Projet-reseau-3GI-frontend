@@ -14,9 +14,9 @@ interface SocialMediaSectionProps {
 
 const SocialMediaSection = ({ socialLinks }: SocialMediaSectionProps) => {
   return (
-    <div className="mt-20 py-12 bg-gray-800 rounded-xl text-white">
+    <div className="w-full mt-20 py-12 bg-gray-800 rounded-xl text-white">
       <h2 className="text-2xl font-bold mb-8 text-center">Suivez-nous sur les réseaux sociaux</h2>
-      <div className="flex justify-center space-x-6">
+      <div className="w-full flex justify-center space-x-6">
         {socialLinks.map((link, index) => (
           <Button
             key={index}

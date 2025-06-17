@@ -11,6 +11,7 @@ import {
 import { ArrowRight } from "lucide-react";
 import { toast } from "sonner";
 import ApiProductCard, { ApiProduct } from "./ApiProductCard";
+import { useRouter } from "next/navigation";
 
 interface ApiProductsSectionProps {
   products: ApiProduct[];
@@ -26,7 +27,7 @@ const ApiProductsSection = ({ products }: ApiProductsSectionProps) => {
       },
     });
   };
-
+  const router = useRouter();
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="flex justify-between items-center mb-8">
@@ -54,6 +55,7 @@ const ApiProductsSection = ({ products }: ApiProductsSectionProps) => {
         <Button 
           variant="outline" 
           className="border-purple-600 text-purple-600 font-bold px-6 py-3 rounded-full hover:bg-purple-50"
+          onClick={() => router.push("/login")}
         >
           Voir plus d&apos;APIs <ArrowRight className="h-4 w-4 ml-2" />
         </Button>
