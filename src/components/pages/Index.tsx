@@ -96,7 +96,7 @@ import {
       id: 3,
       name: "AHMED JALIL",
       role: "Eleve en 3ème année génie informatique",
-      image: "/Images/pp_AHMED.jpg",
+      image: "",
       stars: 3,
       text: ""
     },

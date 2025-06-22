@@ -76,11 +76,11 @@ export default function RightPanel() {
       </form>
 
       <div className="mt-6 text-center text-sm">
-        <p className="text-gray-600">Vous n';avez pas de compte ? <a href="/inscription" className="font-medium text-blue-600 hover:text-blue-700">S';inscrire</a></p>
+        <p className="text-gray-600">Vous n'avez pas de compte ? <a href="/inscription" className="font-medium text-blue-600 hover:text-blue-700">S'inscrire</a></p>
       </div>
 
       <div className="mt-8 text-center text-xs text-gray-500">
-        <p>En vous connectant, vous acceptez nos <a href="#" className="underline">Conditions d';utilisation</a> et notre <a href="#" className="underline">Politique de confidentialité</a>.</p>
+        <p>En vous connectant, vous acceptez nos <a href="#" className="underline">Conditions d'utilisation</a> et notre <a href="#" className="underline">Politique de confidentialité</a>.</p>
       </div>
     </div>
   );

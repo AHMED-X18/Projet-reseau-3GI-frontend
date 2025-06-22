@@ -40,7 +40,7 @@ const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
     <Card className="overflow-hidden">
       <CardContent className="p-6">
         <div className="flex items-center mb-4">
-            <Image src={testimonial.image} alt={testimonial.name} className="w-full h-full object-cover" width={48} height={48} quality={90}/>
+            <Image src={testimonial.image} alt={testimonial.name}  width={500} height={500} quality={100}/>
           </div>
           <div className="text-left">
             <p className="font-medium">{testimonial.name}</p>
