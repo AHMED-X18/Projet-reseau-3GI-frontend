@@ -137,7 +137,7 @@ export default function HomePage() {
                   text-sm md:text-base font-medium
                   shadow-md hover:shadow-lg
                 ">
-                  Voir plus d&apos APIs
+                  Voir plus d' APIs
                 </button>
               </div>
             </div>

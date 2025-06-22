@@ -46,13 +46,13 @@ export default function LocationServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Recherche Flexible : les différents points d&aposaccès permettent de rechercher des villes par identifiant ou par nom, offrant une flexibilité aux développeurs.
+                  Recherche Flexible : les différents points d'accès permettent de rechercher des villes par identifiant ou par nom, offrant une flexibilité aux développeurs.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Contrôleur SVG pour la visualisation : permet d&aposobtenir des graphiques ou des cartes en fonction du code de pays, utile pour les applications nécessitant des visualisations géographiques.
+                  Contrôleur SVG pour la visualisation : permet d'obtenir des graphiques ou des cartes en fonction du code de pays, utile pour les applications nécessitant des visualisations géographiques.
                 </span>
               </li>
             </ul>

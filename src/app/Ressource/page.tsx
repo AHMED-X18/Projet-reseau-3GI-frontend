@@ -99,7 +99,7 @@ export default function ResourceServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-gray-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Ajout d&apos un système de recommandations automatiques pour les catégories de produits basées sur les avis.
+                  Ajout d' un système de recommandations automatiques pour les catégories de produits basées sur les avis.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">

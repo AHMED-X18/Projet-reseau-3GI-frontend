@@ -24,7 +24,7 @@ export default function PaymentServicePage() {
           {/* Main Content Section */}
           <div className="bg-white p-4 sm:p-6 md:p-8 rounded-b-lg shadow-lg">
             <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
-              Cette API permet de gérer les transactions de paiement pour les services offerts. Elle fournit des contrôleurs pour initier des paiements, vérifier les statuts des transactions, et récupérer l&aposhistorique des paiements.
+              Cette API permet de gérer les transactions de paiement pour les services offerts. Elle fournit des contrôleurs pour initier des paiements, vérifier les statuts des transactions, et récupérer l'historique des paiements.
             </p>
 
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-green-600 mt-4 sm:mt-6 mb-3 sm:mb-4">
@@ -40,19 +40,19 @@ export default function PaymentServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Application-key-controller : Permet de gérer les clés d&aposapplication, essentielles pour l&aposauthentification et la sécurisation des communications entre le client et le serveur.
+                  Application-key-controller : Permet de gérer les clés d'application, essentielles pour l'authentification et la sécurisation des communications entre le client et le serveur.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Application-controller : Responsable de la gestion des applications qui interagissent avec l&aposAPI.
+                  Application-controller : Responsable de la gestion des applications qui interagissent avec l'API.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Payment-history-controller : Permet de gérer l&aposhistorique des transactions.
+                  Payment-history-controller : Permet de gérer l'historique des transactions.
                 </span>
               </li>
             </ul>
@@ -73,13 +73,13 @@ export default function PaymentServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Amélioration de la sécurité des transactions avec l&aposintégration de la norme 3D Secure 2.0.
+                  Amélioration de la sécurité des transactions avec l'intégration de la norme 3D Secure 2.0.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-green-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Optimisation des requêtes d&aposhistorique pour un chargement 30% plus rapide des données de transactions.
+                  Optimisation des requêtes d'historique pour un chargement 30% plus rapide des données de transactions.
                 </span>
               </li>
             </ul>

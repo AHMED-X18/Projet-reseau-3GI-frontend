@@ -40,25 +40,25 @@ export default function ChatbotServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Organization Controller : Gère les opérations sur les organisations, y compris la récupération et la suppression d&aposorganisations.
+                  Organization Controller : Gère les opérations sur les organisations, y compris la récupération et la suppression d'organisations.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Chatbot Controller : Gère l&aposinteraction avec les chatbots, permettant l&aposenvoi de requêtes et la récupération des modèles disponibles pour les projets.
+                  Chatbot Controller : Gère l'interaction avec les chatbots, permettant l'envoi de requêtes et la récupération des modèles disponibles pour les projets.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Authentication Controller : Gère l&aposauthentification des utilisateurs, en s&aposassurant que seuls les utilisateurs autorisés peuvent accéder au service.
+                  Authentication Controller : Gère l'authentification des utilisateurs, en s'assurant que seuls les utilisateurs autorisés peuvent accéder au service.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Home Controller : Fournit des informations contextuelles liées à l&aposorganisation de l&aposutilisateur connecté, facilitant l&aposaccès aux données pertinentes.
+                  Home Controller : Fournit des informations contextuelles liées à l'organisation de l'utilisateur connecté, facilitant l'accès aux données pertinentes.
                 </span>
               </li>
             </ul>
@@ -73,7 +73,7 @@ export default function ChatbotServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Intégration de nouveaux modèles d&aposIA pour une compréhension contextuelle améliorée des conversations.
+                  Intégration de nouveaux modèles d'IA pour une compréhension contextuelle améliorée des conversations.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
