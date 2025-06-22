@@ -24,7 +24,7 @@ export default function NotificationServicePage() {
           {/* Main Content Section */}
           <div className="bg-white p-4 sm:p-6 md:p-8 rounded-b-lg shadow-lg">
             <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
-              API complète pour la gestion des notifications multicanales. Permet l'envoi ciblé via email, SMS et notifications push, avec suivi en temps réel et personnalisation avancée des templates.
+              API complète pour la gestion des notifications multicanales. Permet l&aposenvoi ciblé via email, SMS et notifications push, avec suivi en temps réel et personnalisation avancée des templates.
             </p>
 
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-purple-700 mt-4 sm:mt-6 mb-3 sm:mb-4">
@@ -105,13 +105,13 @@ export default function NotificationServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Optimisation de la gestion des files d'attente pour réduire la latence des envois SMS de 40%.
+                  Optimisation de la gestion des files d&aposattente pour réduire la latence des envois SMS de 40%.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-purple-700 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Amélioration de l'intégration WebSocket pour un suivi en temps réel plus fiable des notifications.
+                  Amélioration de l&aposintégration WebSocket pour un suivi en temps réel plus fiable des notifications.
                 </span>
               </li>
             </ul>

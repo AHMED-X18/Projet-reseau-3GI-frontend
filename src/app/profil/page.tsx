@@ -249,7 +249,7 @@ export default function ProfilePage() {
 
                 {/* Username */}
                 <div className="space-y-2">
-                  <label className="block text-sm font-semibold text-blue-900">Nom d'utilisateur</label>
+                  <label className="block text-sm font-semibold text-blue-900">Nom d&apos utilisateur</label>
                   {isEditing ? (
                     <div>
                       <input

@@ -8,7 +8,7 @@ export default function AuthenticationPage() {
   return (
     <>
       <Head>
-        <title>API de Service d'Authentification - Détails</title>
+        <title>API de Service d&aposAuthentification - Détails</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </Head>
       <div className="font-sans bg-gray-100 text-gray-800 min-h-screen flex justify-center items-center py-4 px-2 sm:px-4">
@@ -17,14 +17,14 @@ export default function AuthenticationPage() {
           <div className="bg-blue-600 text-white p-4 sm:p-6 rounded-t-lg text-center">
             <FontAwesomeIcon icon={faLock} className="text-xl sm:text-2xl md:text-3xl" />
             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mt-2 sm:mt-3">
-              API de Service d'Authentification
+              API de Service d&aposAuthentification
             </h1>
           </div>
 
           {/* Main Content Section */}
           <div className="bg-white p-4 sm:p-6 md:p-8 rounded-b-lg shadow-lg">
             <p className="text-sm sm:text-base md:text-lg font-semibold text-blue-600 mb-3 sm:mb-4">
-              Cette API d'authentification fournit un cadre complet pour gérer l'accès et la sécurité des utilisateurs et des ressources d'une application, elle inclut des contrôleurs qui permettent de gérer les utilisateurs et les ressources.
+              Cette API d&aposauthentification fournit un cadre complet pour gérer l&aposaccès et la sécurité des utilisateurs et des ressources d&aposune application, elle inclut des contrôleurs qui permettent de gérer les utilisateurs et les ressources.
             </p>
 
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-blue-600 mt-4 sm:mt-6 mb-3 sm:mb-4">
@@ -34,7 +34,7 @@ export default function AuthenticationPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-blue-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <strong>Contrôleur de rôles :</strong> Gère les opérations liées aux rôles et permissions dans un système d'authentification.
+                  <strong>Contrôleur de rôles :</strong> Gère les opérations liées aux rôles et permissions dans un système d&aposauthentification.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
@@ -46,7 +46,7 @@ export default function AuthenticationPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-blue-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <strong>Contrôleur d'authentification :</strong> Gère les opérations liées à l'authentification des utilisateurs.
+                  <strong>Contrôleur d&aposauthentification :</strong> Gère les opérations liées à l&aposauthentification des utilisateurs.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
@@ -58,7 +58,7 @@ export default function AuthenticationPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-blue-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <strong>Contrôleur de ressources :</strong> Gère les opérations liées aux ressources protégées par le système d'authentification.
+                  <strong>Contrôleur de ressources :</strong> Gère les opérations liées aux ressources protégées par le système d&aposauthentification.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
@@ -85,7 +85,7 @@ export default function AuthenticationPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-blue-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Ajout de la prise en charge de l'authentification unique (SSO) via SAML 2.0 pour une intégration simplifiée.
+                  Ajout de la prise en charge de l&aposauthentification unique (SSO) via SAML 2.0 pour une intégration simplifiée.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">

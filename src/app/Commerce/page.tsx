@@ -8,7 +8,7 @@ export default function BusinessActorsPage() {
   return (
     <>
       <Head>
-        <title>API de Service d'Acteurs Commerciaux - Détails</title>
+        <title>API de Service d&aposActeurs Commerciaux - Détails</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </Head>
       <div className="font-sans bg-gray-100 text-gray-800 min-h-screen flex justify-center items-center py-4 px-2 sm:px-4">
@@ -17,14 +17,14 @@ export default function BusinessActorsPage() {
           <div className="bg-yellow-500 text-white p-4 sm:p-6 rounded-t-lg text-center">
             <FontAwesomeIcon icon={faUsers} className="text-xl sm:text-2xl md:text-3xl" />
             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mt-2 sm:mt-3">
-              API de Service d'Acteurs Commerciaux
+              API de Service d&aposActeurs Commerciaux
             </h1>
           </div>
 
           {/* Main Content Section */}
           <div className="bg-white p-4 sm:p-6 md:p-8 rounded-b-lg shadow-lg">
             <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
-              Cette API permet d'interagir avec plusieurs acteurs commerciaux.
+              Cette API permet d&aposinteragir avec plusieurs acteurs commerciaux.
             </p>
 
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-yellow-500 mt-4 sm:mt-6 mb-3 sm:mb-4">
@@ -34,13 +34,13 @@ export default function BusinessActorsPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-yellow-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  <strong>Contrôleur acteur-business</strong> : permet de créer, lire, mettre à jour et supprimer des acteurs commerciaux, ainsi que de rechercher des acteurs par nom d'utilisateur, numéro de téléphone ou adresse e-mail.
+                  <strong>Contrôleur acteur-business</strong> : permet de créer, lire, mettre à jour et supprimer des acteurs commerciaux, ainsi que de rechercher des acteurs par nom d&aposutilisateur, numéro de téléphone ou adresse e-mail.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-yellow-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                <strong>Contrôleur des préférences</strong> : permet d'obtenir les préférences associées à chaque acteur commercial.
+                <strong>Contrôleur des préférences</strong> : permet d&aposobtenir les préférences associées à chaque acteur commercial.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
@@ -61,13 +61,13 @@ export default function BusinessActorsPage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-yellow-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Ajout d'une fonctionnalité de validation automatique des informations fiscales pour les acteurs commerciaux.
+                  Ajout d&aposune fonctionnalité de validation automatique des informations fiscales pour les acteurs commerciaux.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-yellow-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Amélioration de la recherche d'acteurs commerciaux avec prise en charge des filtres par secteur d'activité et localisation.
+                  Amélioration de la recherche d&aposacteurs commerciaux avec prise en charge des filtres par secteur d&aposactivité et localisation.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">

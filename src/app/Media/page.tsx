@@ -24,7 +24,7 @@ export default function MediaServicePage() {
           {/* Main Content Section */}
           <div className="bg-white p-4 sm:p-6 md:p-8 rounded-b-lg shadow-lg">
             <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
-              Cette API permet de gérer tous les médias associés aux produits et services. Elle offre un contrôle centralisé sur les images, vidéos et documents, avec des fonctionnalités d'upload, d'organisation et de liaison avec d'autres entités.
+              Cette API permet de gérer tous les médias associés aux produits et services. Elle offre un contrôle centralisé sur les images, vidéos et documents, avec des fonctionnalités d&aposupload, d&aposorganisation et de liaison avec d&aposautres entités.
             </p>
 
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-red-600 mt-4 sm:mt-6 mb-3 sm:mb-4">
@@ -105,13 +105,13 @@ export default function MediaServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-red-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Amélioration de l'algorithme de compression pour réduire la taille des images sans perte de qualité.
+                  Amélioration de l&aposalgorithme de compression pour réduire la taille des images sans perte de qualité.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-red-600 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Intégration d'un nouveau système de gestion des métadonnées pour une meilleure indexation des médias.
+                  Intégration d&aposun nouveau système de gestion des métadonnées pour une meilleure indexation des médias.
                 </span>
               </li>
             </ul>

@@ -3,7 +3,6 @@
 import Head from 'next/head';
 import Script from 'next/script';
 import { useState, useEffect } from 'react';
-import styles from 'acceuil/page.module.css';
 import Sidebar from '@/components/Acceuil/Sidebar';
 import Header from '@/components/Acceuil/Header';
 import ApiCard from '@/components/Acceuil/ApiCard';
@@ -139,7 +138,7 @@ export default function HomePage() {
                   text-sm md:text-base font-medium
                   shadow-md hover:shadow-lg
                 ">
-                  Voir plus d'APIs
+                  Voir plus d&apos APIs
                 </button>
               </div>
             </div>

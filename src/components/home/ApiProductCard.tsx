@@ -21,7 +21,7 @@ interface ApiProductCardProps {
   onViewDetails: (product: ApiProduct) => void;
 }
 
-const ApiProductCard = ({ product, onViewDetails }: ApiProductCardProps) => {
+const ApiProductCard = ({ product}: ApiProductCardProps) => {
   const router = useRouter();
   return (
     <Card className="h-full border border-gray-200 overflow-hidden transition-all hover:shadow-lg">

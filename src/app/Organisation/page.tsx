@@ -8,7 +8,7 @@ export default function OrganizationServicePage() {
   return (
     <>
       <Head>
-        <title>API de Service d'Organisation - Détails</title>
+        <title>API de Service d&aposOrganisation - Détails</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </Head>
       <div className="font-sans bg-gray-100 text-gray-800 min-h-screen flex justify-center items-center py-4 px-2 sm:px-4">
@@ -17,7 +17,7 @@ export default function OrganizationServicePage() {
           <div className="bg-orange-500 text-white p-4 sm:p-6 rounded-t-lg text-center">
             <FontAwesomeIcon icon={faSitemap} className="text-xl sm:text-2xl md:text-3xl" />
             <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mt-2 sm:mt-3">
-              API de Service d'Organisation
+              API de Service d&aposOrganisation
             </h1>
           </div>
 
@@ -33,7 +33,7 @@ export default function OrganizationServicePage() {
             <ul className="list-none space-y-2 sm:space-y-3">
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
-                <span>Équipe : Gestion des membres d'équipe.</span>
+                <span>Équipe : Gestion des membres d&aposéquipe.</span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
@@ -57,7 +57,7 @@ export default function OrganizationServicePage() {
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
-                <span>Logs : Consultation des historiques d'activités.</span>
+                <span>Logs : Consultation des historiques d&aposactivités.</span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
@@ -99,13 +99,13 @@ export default function OrganizationServicePage() {
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Ajout d'une fonctionnalité de tableau de bord personnalisé pour le suivi des projets par équipe.
+                  Ajout d&aposune fonctionnalité de tableau de bord personnalisé pour le suivi des projets par équipe.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">
                 <FontAwesomeIcon icon={faCheck} className="text-orange-500 mr-2 mt-1 flex-shrink-0" />
                 <span>
-                  Amélioration de l'intégration avec des outils tiers pour une synchronisation automatique des calendriers.
+                  Amélioration de l&aposintégration avec des outils tiers pour une synchronisation automatique des calendriers.
                 </span>
               </li>
               <li className="flex items-start text-xs sm:text-sm md:text-base">

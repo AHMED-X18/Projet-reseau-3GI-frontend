@@ -173,7 +173,7 @@ const AidePage = () => {
             >
               <LifeBuoy className="w-16 h-16 text-blue-500" />
             </motion.div>
-            <h1 className="text-5xl font-bold mb-4 tracking-tight">Centre d'Aide</h1>
+            <h1 className="text-5xl font-bold mb-4 tracking-tight">Centre d&aposAide</h1>
             <p className="text-xl opacity-90 mb-6">YOWYOB API Center</p>
             <div className="inline-flex items-center bg-white bg-opacity-15 px-6 py-3 rounded-full">
               <Shield className="w-5 h-5 text-blue-400 mr-2" />
@@ -216,7 +216,7 @@ const AidePage = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-blue-900 mb-3">Plateforme Révolutionnaire</h3>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    Yowyob API Center est votre gateway vers l'excellence technologique. Notre plateforme centralisée offre un accès sécurisé à un écosystème complet d'APIs, conçu pour propulser vos projets vers de nouveaux sommets d'innovation.
+                    Yowyob API Center est votre gateway vers l&aposexcellence technologique. Notre plateforme centralisée offre un accès sécurisé à un écosystème complet d&aposAPIs, conçu pour propulser vos projets vers de nouveaux sommets d&aposinnovation.
                   </p>
                 </div>
               </div>
@@ -355,9 +355,9 @@ const AidePage = () => {
                 <Headphones className="w-16 h-16 text-blue-600 mx-auto" />
               </motion.div>
             </div>
-            <h3 className="text-3xl font-bold text-blue-900 mb-4">Besoin d'Assistance ?</h3>
+            <h3 className="text-3xl font-bold text-blue-900 mb-4">Besoin d&aposAssistance ?</h3>
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-              Notre équipe d'experts est à votre disposition pour vous accompagner dans votre parcours d'intégration.
+              Notre équipe d&aposexperts est à votre disposition pour vous accompagner dans votre parcours d&aposintégration.
             </p>
             <button 
               className="inline-flex items-center px-10 py-4 text-white font-bold text-lg rounded-2xl transition-all duration-300 hover:transform hover:-translate-y-1 relative overflow-hidden"
