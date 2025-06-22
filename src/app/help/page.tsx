@@ -42,17 +42,17 @@ const AidePage = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.style.opacity = '1';
-          entry.target.style.transform = 'translateY(0) scale(1)';
+          (entry.target as HTMLElement).style.opacity = '1';
+          (entry.target as HTMLElement).style.transform = 'translateY(0) scale(1)';
         }
       });
     }, observerOptions);
 
     // Observe all animated elements
     document.querySelectorAll('.premium-card, .feature-card').forEach((el, index) => {
-      el.style.opacity = '0';
-      el.style.transform = 'translateY(30px) scale(0.95)';
-      el.style.transition = `all 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.1}s`;
+      (el as HTMLElement).style.opacity = '0';
+      (el as HTMLElement).style.transform = 'translateY(30px) scale(0.95)';
+      (el as HTMLElement).style.transition = `all 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.1}s`;
       observer.observe(el);
     });
 
@@ -366,10 +366,10 @@ const AidePage = () => {
                 boxShadow: '0 4px 15px rgba(30, 64, 175, 0.4)'
               }}
               onMouseEnter={(e) => {
-                e.target.style.boxShadow = '0 8px 25px rgba(30, 64, 175, 0.6)';
+                (e.target as HTMLElement).style.boxShadow = '0 8px 25px rgba(30, 64, 175, 0.6)';
               }}
               onMouseLeave={(e) => {
-                e.target.style.boxShadow = '0 4px 15px rgba(30, 64, 175, 0.4)';
+                (e.target as HTMLElement).style.boxShadow = '0 4px 15px rgba(30, 64, 175, 0.4)';
               }}
             >
               <Mail className="w-5 h-5 mr-3" />
