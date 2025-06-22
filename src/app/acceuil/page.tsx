@@ -124,7 +124,6 @@ export default function HomePage() {
                   <ApiCard 
                     key={index} 
                     {...api} 
-                    className="relative hover:shadow-lg transition-shadow duration-200"
                   />
                 ))}
               </div>
