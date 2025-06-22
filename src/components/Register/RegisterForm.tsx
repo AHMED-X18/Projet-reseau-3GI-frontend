@@ -114,6 +114,29 @@ export default function RegisterForm() {
               <p id="fullname-error-text" className="hidden mt-1 text-sm text-red-600"></p>
             </div>
 
+            {/* Login */}
+            <div>
+              <label htmlFor="login" className="block text-sm font-medium text-gray-700 mb-1">
+                Username
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <i className="fas fa-user text-gray-400"></i>
+                </div>
+                <input
+                  type="text"
+                  id="login"
+                  name="login"
+                  className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                  placeholder="Login"
+                />
+                <div id="fullname-error" className="hidden absolute right-0 top-0 mt-2 mr-2">
+                  <i className="fas fa-exclamation-circle text-red-500"></i>
+                </div>
+              </div>
+              <p id="fullname-error-text" className="hidden mt-1 text-sm text-red-600"></p>
+            </div>
+
             {/* Email */}
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">

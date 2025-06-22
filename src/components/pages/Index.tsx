@@ -78,27 +78,51 @@ import {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Flora ESSONO",
-      role: "Développeuse Fullstack",
-      image: "https://randomuser.me/api/portraits/women/32.jpg",
+      name: "Pr. Dr. Ing. Thomas DJOTIO",
+      role: "Enseignant à l'école nationale supérieure polytechnique de Yaoundé",
+      image: "/Images/pp_prof.png",
       stars: 5,
-      text: "L'API financière a révolutionné notre application. Les données sont toujours à jour et l'intégration a été incroyablement simple grâce à la documentation claire."
+      text: ""
     },
     {
       id: 2,
       name: "Hanniel ATCHINE",
-      role: "CTO, Startup Tech",
-      image: "https://randomuser.me/api/portraits/men/44.jpg",
+      role: "Eleve en 3eme année génie informatique",
+      image: "",
       stars: 4.5,
-      text: "Nous utilisons plusieurs APIs de cette plateforme. La gestion centralisée des clés API nous fait gagner un temps précieux et réduit la complexité de notre infrastructure."
+      text: ""
     },
     {
       id: 3,
-      name: "Ahmed Jalil",
-      role: "Product Manager",
-      image: "https://randomuser.me/api/portraits/men/68.jpg",
+      name: "AHMED JALIL",
+      role: "Eleve en 3ème année génie informatique",
+      image: "/Images/pp_AHMED.jpg",
+      stars: 3,
+      text: ""
+    },
+    {
+      id: 4,
+      name: "AKOULOUZE MANY",
+      role: "Eleve en 3eme année génie informatique",
+      image: "",
       stars: 5,
-      text: "L'API météo nous permet d'offrir des fonctionnalités innovantes à nos utilisateurs. La fiabilité est exceptionnelle et le support technique réactif."
+      text: ""
+    },
+    {
+      id: 5,
+      name: "AKOULOUZE JAMALI",
+      role: "Eleve en 3eme année génie informatique",
+      image: "/Images/pp_JAMALI.png",
+      stars: 5,
+      text: ""
+    },
+    {
+      id: 6,
+      name: "FLORA ESSONO",
+      role: "Eleve en 3eme année génie informatique",
+      image: "",
+      stars: 5,
+      text: ""
     }
   ];
   
@@ -134,7 +158,7 @@ import {
   
   const Index = () => {
     return (
-      <div className="min-h-screen w-full bg-gray-50">
+      <div className="min-h-screen w-full relative bg-gray-50">
         <HeroSection />
         
         <ApiProductsSection products={apiProducts} />

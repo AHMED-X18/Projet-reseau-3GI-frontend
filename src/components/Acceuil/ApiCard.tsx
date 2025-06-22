@@ -4,6 +4,10 @@ import Link from 'next/link';
 import styles from './ApiCard.module.css';
 
 export default function ApiCard({ title, description, link, icon }) {
+  const getDetailLink = (title: string) => {
+    return link; // Default to the original link
+  };
+
   return (
     <div className={styles.apiCard}>
       <div className="flex items-center mb-3">
@@ -11,7 +15,7 @@ export default function ApiCard({ title, description, link, icon }) {
         <h3 className="text-lg font-semibold">{title}</h3>
       </div>
       <p className="text-gray-600 mb-3">{description}</p>
-      <Link href={link} className="text-blue-600 hover:underline">
+      <Link href={getDetailLink(title)} className="text-blue-600 hover:underline">
         Voir détails <i className="fas fa-arrow-right ml-1"></i>
       </Link>
     </div>
@@ -19,7 +23,7 @@ export default function ApiCard({ title, description, link, icon }) {
 }
 
 // Helper function to assign colors
-function getIconColor(title) {
+function getIconColor(title: string) {
   const colorMap = {
     "Service d'Authentification": '#4B5EFC',
     "Service d'Acteurs Commerciaux": '#F59E0B',

@@ -120,4 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
-
+@media (max-width: 640px) {
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  .mainContent {
+    padding-top: 0;
+  }
+}

@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 export default function Header() {
   const categories = [
     'Toutes', 'Authentification', 'Commerce', 'Localisation', 'Média',
-    'Notification', 'Organisation', 'Paiement', 'Ressources', 'Chatbot',
+    'Notification', 'Organisation', 'Paiement', 'Ressources',
   ];
 
   return (

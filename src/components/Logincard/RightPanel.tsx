@@ -6,12 +6,11 @@ import styles from '@/app/login/style.module.css';
 export default function RightPanel() {
   return (
     <div className={`w-full md:w-1/2 p-8 md:p-12 ${styles.rightPanel}`}>
-      <div className="text-center mb-2 md:hidden">
+      <div className="text-center mb-2">
         <div className={`w-16 h-16 ${styles.gradientBg} rounded-lg flex items-center justify-center mx-auto mb-4`}>
-          <i className="fas fa-code text-white text-2xl"></i>
+          <i className="fas fa-code text-blue-400 text-2xl"></i>
         </div>
-        <h2 className="text-2xl font-bold text-gray-800 mb-1">API Hub</h2>
-        <p className="text-gray-600">Votre portail centralisé d&apos;APIs</p>
+        <h2 className="text-2xl font-bold text-gray-800 mb-1">YOWYOB API Center</h2>
       </div>
 
       <h2 className="text-2xl font-bold text-gray-800 mb-1">Connectez-vous</h2>
