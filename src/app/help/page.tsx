@@ -38,15 +38,24 @@ const AidePage = () => {
       threshold: 0.1,
       rootMargin: '0px 0px -100px 0px'
     };
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fadeIn');
-        } else {
-          entry.target.classList.remove('animate-fadeIn');
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0) scale(1)';
         }
       });
     }, observerOptions);
+
+    // Observe all animated elements
+    document.querySelectorAll('.premium-card, .feature-card').forEach((el, index) => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px) scale(0.95)';
+      el.style.transition = `all 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.1}s`;
+      observer.observe(el);
+    });
+
     return () => {
       observer.disconnect();
     };
@@ -150,7 +159,6 @@ const AidePage = () => {
               background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent)',
               animation: 'shimmer 4s ease-in-out infinite'
             }}
-            
           />
           
           <div className="relative z-10">
@@ -356,6 +364,12 @@ const AidePage = () => {
               style={{
                 background: 'linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)',
                 boxShadow: '0 4px 15px rgba(30, 64, 175, 0.4)'
+              }}
+              onMouseEnter={(e) => {
+                e.target.style.boxShadow = '0 8px 25px rgba(30, 64, 175, 0.6)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.boxShadow = '0 4px 15px rgba(30, 64, 175, 0.4)';
               }}
             >
               <Mail className="w-5 h-5 mr-3" />

@@ -3,7 +3,15 @@
 import Link from 'next/link';
 import styles from './ApiCard.module.css';
 
-export default function ApiCard({ title, description, link, icon }) {
+// Define the props interface
+interface ApiCardProps {
+  title: string;
+  description: string;
+  link: string;
+  icon: string;
+}
+
+export default function ApiCard({ title, description, link, icon }: ApiCardProps) {
   const getDetailLink = (title: string) => {
     return link; // Default to the original link
   };
@@ -24,7 +32,7 @@ export default function ApiCard({ title, description, link, icon }) {
 
 // Helper function to assign colors
 function getIconColor(title: string) {
-  const colorMap = {
+  const colorMap: Record<string, string> = {
     "Service d'Authentification": '#4B5EFC',
     "Service d'Acteurs Commerciaux": '#F59E0B',
     "Service de Localisation": '#10B981',
@@ -35,5 +43,5 @@ function getIconColor(title: string) {
     "Service de Ressources": '#6B7280',
     "Service de Chatbot": '#9333EA',
   };
-  return colorMap[title] || '#6B7280';
+  return colorMap[title as keyof typeof colorMap] || '#6B7280';
 }
